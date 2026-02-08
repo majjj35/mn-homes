@@ -85,6 +85,10 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    z-index: 1001;
+    padding: 10px;
 }
 
 .hamburger span {
