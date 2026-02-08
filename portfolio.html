@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">INTERIOR DESIGN</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our collection of transformative design projects</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="living">Living Rooms</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchens</button>
+                <button class="filter-btn" data-filter="bedroom">Bedrooms</button>
+                <button class="filter-btn" data-filter="bathroom">Bathrooms</button>
+                <button class="filter-btn" data-filter="complete">Full Home</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-full-grid">
+                <!-- Living Room Projects -->
+                <div class="portfolio-item-full" data-category="living">
+                    <img src="images/living-room-project-1.jpg" alt="Contemporary Living Space" style="width: 100%; height: 100%; min-height: 400px; object-fit: cover; border-radius: 5px;">
+                    <div class="portfolio-details">
+                        <h3>Contemporary Living Space</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Modern minimalist design with luxurious finishes, featuring custom built-ins and a sophisticated neutral palette.</p>
+                        <ul class="project-features">
+                            <li>Custom millwork</li>
+                            <li>Italian marble flooring</li>
+                            <li>Integrated lighting design</li>
+                            <li>Bespoke furniture</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-full" data-category="living">
+                    <div class="placeholder-image large">
+                        <span>Living Room Project 2</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Classic Elegance</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Traditional design meets contemporary comfort with rich textures and timeless elegance.</p>
+                        <ul class="project-features">
+                            <li>Crystal chandeliers</li>
+                            <li>Crown molding details</li>
+                            <li>Imported fabrics</li>
+                            <li>Custom drapery</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Kitchen Projects -->
+                <div class="portfolio-item-full" data-category="kitchen">
+                    <div class="placeholder-image large">
+                        <span>Kitchen Project 1</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Gourmet Kitchen</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">State-of-the-art culinary space with premium appliances and functional luxury.</p>
+                        <ul class="project-features">
+                            <li>Quartz countertops</li>
+                            <li>Professional appliances</li>
+                            <li>Custom cabinetry</li>
+                            <li>Smart storage solutions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-full" data-category="kitchen">
+                    <div class="placeholder-image large">
+                        <span>Kitchen Project 2</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Modern Minimalist Kitchen</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Sleek, handleless design with integrated appliances and seamless surfaces.</p>
+                        <ul class="project-features">
+                            <li>Italian cabinetry</li>
+                            <li>Integrated refrigeration</li>
+                            <li>Touch-activated faucets</li>
+                            <li>LED accent lighting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bedroom Projects -->
+                <div class="portfolio-item-full" data-category="bedroom">
+                    <div class="placeholder-image large">
+                        <span>Bedroom Project 1</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Master Suite Sanctuary</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Tranquil retreat featuring custom upholstery and spa-like ambiance.</p>
+                        <ul class="project-features">
+                            <li>Custom headboard</li>
+                            <li>Ambient lighting system</li>
+                            <li>Walk-in closet design</li>
+                            <li>Luxury bedding</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-full" data-category="bedroom">
+                    <div class="placeholder-image large">
+                        <span>Bedroom Project 2</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Guest Suite</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Welcoming space with sophisticated styling and comfort-focused design.</p>
+                        <ul class="project-features">
+                            <li>Neutral color palette</li>
+                            <li>Built-in storage</li>
+                            <li>Premium textiles</li>
+                            <li>Ensuite bathroom</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bathroom Projects -->
+                <div class="portfolio-item-full" data-category="bathroom">
+                    <div class="placeholder-image large">
+                        <span>Bathroom Project 1</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Spa-Inspired Bathroom</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Luxury wellness experience with natural stone and contemporary fixtures.</p>
+                        <ul class="project-features">
+                            <li>Rainfall shower system</li>
+                            <li>Freestanding soaking tub</li>
+                            <li>Heated flooring</li>
+                            <li>Double vanity</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Full Home Projects -->
+                <div class="portfolio-item-full" data-category="complete">
+                    <div class="placeholder-image large">
+                        <span>Full Home Project 1</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Complete Villa Transformation</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Comprehensive renovation of a 5-bedroom villa, blending modern luxury with functional family living.</p>
+                        <ul class="project-features">
+                            <li>Full interior redesign</li>
+                            <li>Custom furniture throughout</li>
+                            <li>Smart home integration</li>
+                            <li>Landscape coordination</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-full" data-category="complete">
+                    <div class="placeholder-image large">
+                        <span>Full Home Project 2</span>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Luxury Apartment Makeover</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-description">Modern penthouse transformation maximizing views and natural light.</p>
+                        <ul class="project-features">
+                            <li>Open-plan living</li>
+                            <li>Premium finishes</li>
+                            <li>Custom lighting design</li>
+                            <li>Integrated audio/visual</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Start Your Project</h2>
+            <p>Let's create something beautiful together</p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>INTERIOR DESIGN</h4>
+                    <p>Creating exceptional spaces for exceptional lives</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@yourdesign.com</p>
+                    <p>Phone: +966 XX XXX XXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Interior Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
