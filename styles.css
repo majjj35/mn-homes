@@ -107,7 +107,7 @@ body {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23c8a97e" width="1200" height="800"/><text x="50%25" y="50%25" font-size="48" fill="%23ffffff" text-anchor="middle" dominant-baseline="middle">Luxury Interior</text></svg>');
+                url('images/hero-background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
