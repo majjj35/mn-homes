@@ -1034,6 +1034,28 @@ footer {
     .stat-number {
         font-size: 2rem;
     }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .service-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    .service-icon {
+        font-size: 2rem;
+    }
+    
+    .service-card h3 {
+        font-size: 1rem;
+    }
+    
+    .service-card p {
+        font-size: 0.85rem;
+    }
+}
 }
 
 @media (max-width: 480px) {
