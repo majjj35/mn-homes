@@ -1027,15 +1027,7 @@ footer {
         justify-content: space-around;
     }
 
-    .stat-item {
-        padding: 1rem;
-    }
-
-    .stat-number {
-        font-size: 2rem;
-    }
-
-    .services-grid {
+.services-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
@@ -1055,7 +1047,6 @@ footer {
     .service-card p {
         font-size: 0.85rem;
     }
-}
 }
 
 @media (max-width: 480px) {
