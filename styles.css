@@ -664,6 +664,27 @@ section {
     color: var(--text-light);
     font-size: 0.9rem;
 }
+.team-member h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #c5a572;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.team-role {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.team-member p {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
 
 /* Contact Page */
 .contact-section {
